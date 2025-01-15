@@ -15,7 +15,7 @@ import {
 const Navbar = () => {
   const pathname = usePathname();
   return (
-    <div className="w-full max-w-[75rem] flex justify-between items-center gap-8">
+    <div className="w-full max-w-[75rem] flex justify-between items-center gap-8 mx-auto">
       <div>
         <Image
           src={"/assets/logo.svg"}

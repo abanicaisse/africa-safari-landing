@@ -28,7 +28,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} ${montserrat.variable} antialiased`}>
+      <body
+        className={`${roboto.variable} ${montserrat.variable} bg-background antialiased font-roboto`}
+      >
         <div className="w-full bg-accent-yellow px-8 lg:px-[7.5rem] py-[0.6875rem] lg:py-[0.5625rem]">
           <TopBar />
         </div>

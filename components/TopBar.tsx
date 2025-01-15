@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const TopBar = () => {
   return (
-    <div className="w-full max-w-[75rem] flex justify-between items-center gap-8 text-xs">
+    <div className="w-full max-w-[75rem] flex justify-between items-center gap-8 text-xs mx-auto">
       <div className="flex justify-start items-center gap-2 md:gap-[1.5625rem]">
         <div className="w-fit flex justify-start items-center gap-2 text-xs">
           <Image src={"/assets/phone.svg"} width={16} height={16} alt="phone" />

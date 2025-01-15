@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto, Montserrat } from "next/font/google";
 import "./globals.css";
 import TopBar from "@/components/TopBar";
+import Navbar from "@/components/Navbar";
 
 const roboto = Roboto({
   variable: "--font-roboto",
@@ -30,6 +31,9 @@ export default function RootLayout({
       <body className={`${roboto.variable} ${montserrat.variable} antialiased`}>
         <div className="w-full bg-accent-yellow px-8 lg:px-[7.5rem] py-[0.6875rem] lg:py-[0.5625rem]">
           <TopBar />
+        </div>
+        <div className="w-full bg-secondary-brown px-8 lg:px-[7.5rem] py-[0.6875rem] lg:py-[0.5625rem]">
+          <Navbar />
         </div>
         {children}
       </body>

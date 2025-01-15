@@ -137,11 +137,13 @@ const Navbar = () => {
           </DropdownMenu>
         </div>
 
-        <div className="w-full hidden lg:flex items-center gap-12 text-white">
+        <div className="w-full hidden lg:flex items-center gap-6 xl:gap-12 text-white">
           <Link
             href="/"
             className={`text-base font-bold border-b-2 border-transparent hover:text-accent-yellow hover:border-accent-yellow ${
-              pathname === "/" ? "text-accent-yellow border-accent-yellow" : ""
+              pathname === "/"
+                ? "text-accent-yellow border-b-2 border-accent-yellow"
+                : ""
             }`}
           >
             Home

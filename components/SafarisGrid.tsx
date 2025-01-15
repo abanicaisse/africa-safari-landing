@@ -1,7 +1,6 @@
 import React from "react";
 import { Button } from "./ui/button";
-import { ArrowRight } from "lucide-react";
-
+import Image from "next/image";
 interface ISafariCardProps extends React.HTMLAttributes<HTMLDivElement> {
   title: string;
   description: string;
@@ -29,20 +28,19 @@ const SafariCard = ({
               : "md:mr-auto md:pl-[3.875rem] md:pr-[0]"
           }`}
         >
-          <h1 className="text-[1.25rem] lg:text-[2rem] leading-[40px] font-bold text-primary-brown">
+          <h1 className="text-[1.25rem] lg:text-[2rem] leading-[28px] lg:leading-[40px] font-bold text-primary-brown">
             {title}
           </h1>
-          <p className="text-[0.875rem] lg:text-[1.25rem] leading-[22px] font-bold text-primary-brown">
+          <p className="text-[0.875rem] lg:text-[1.25rem] leading-[24px] font-normal text-primary-brown">
             {description}
           </p>
-          <Button className="w-fit flex justify-center items-center gap-4 py-[1.25rem] px-[1rem] uppercase font-semibold bg-primary-brown">
-            <p className="w-fit flex items-center justify-center bg-white rounded-full">
-              <ArrowRight
-                size={12}
-                strokeWidth={3}
-                className="text-black font-medium"
-              />
-            </p>
+          <Button className="w-fit flex justify-center items-center gap-3 py-[1.25rem] lg:py-[1.65rem] px-[.5rem] lg:px-[1.5rem] uppercase font-semibold bg-primary-brown">
+            <Image
+              src={"/assets/right-arrow.svg"}
+              width={14}
+              height={14}
+              alt="r-arrow"
+            />
             <p>Vist Now</p>
           </Button>
         </div>

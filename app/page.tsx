@@ -1,10 +1,10 @@
 import HeroSection from "@/components/HeroSection";
 import OverviewSection from "@/components/OverviewSection";
-import Image from "next/image";
+import SafarisGrid from "@/components/SafarisGrid";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col items-start gap-[1rem] lg:gap-[3rem]">
+    <div className="w-full flex flex-col items-start gap-[3rem] lg:gap-[3rem]">
       <div
         className="w-full flex flex-col px-8 lg:px-[7.5rem] pt-[3rem] pb-[6.75rem] md:pt-[4.75rem] md:pb-[6.75rem] bg-hero-bg-mobile md:bg-hero-bg-desktop"
         style={{
@@ -17,6 +17,9 @@ export default function Home() {
       </div>
       <div className="w-full bg-background px-8 lg:px-[7.5rem]">
         <OverviewSection />
+      </div>
+      <div className="w-full bg-background">
+        <SafarisGrid />
       </div>
     </div>
   );

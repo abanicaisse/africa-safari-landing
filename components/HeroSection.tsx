@@ -31,7 +31,7 @@ const HeroSection = () => {
             </p>
             <p>Vist Now</p>
           </Button>
-          <Button className="w-fit flex justify-center items-center gap-3 py-[1.25rem] px-[.5rem] uppercase font-semibold text-black bg-accent-yellow">
+          <Button className="w-fit flex justify-center items-center gap-3 py-[1.25rem] px-[.5rem] uppercase font-semibold text-black bg-accent-yellow hover:bg-white">
             <Search
               size={12}
               strokeWidth={3}

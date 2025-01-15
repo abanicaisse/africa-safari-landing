@@ -9,6 +9,12 @@ export default {
   theme: {
     extend: {
       colors: {
+        "primary-brown": "var(--primary-brown)",
+        "secondary-brown": "var(--secondary-brown)",
+        "accent-yellow": "var(--accent-yellow)",
+        "secondary-accent-yellow": "var(--secondary-accent-yellow)",
+        black: "var(--black)",
+
         background: "var(--background)",
         foreground: "var(--foreground)",
       },

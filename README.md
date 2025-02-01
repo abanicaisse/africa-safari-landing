@@ -15,7 +15,6 @@ If you want to try and reproduce the design yourself and build it with your own 
 - [Into Africa Safaris Website Redesign (Figma - file)](<https://www.figma.com/design/oTzLzJbgkt0ajb55vz8R8r/Into-Africa-Safaris--Website-Redesign-(Copy)?node-id=0-1&p=f&t=IMDgldlJxlslCJPm-0>)
 
 ## My Output
-
-![Africa Safari Landing Page](../public/africa-safari-landing.mov)
+https://github.com/user-attachments/assets/af7bfd00-3ce2-455a-a48d-94a86d236e60
 
 Thanks 😊

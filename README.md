@@ -7,3 +7,15 @@ Landing page for a uganda based tourism company called Africa Safari
 - TypeScript
 - NextJs
 - TailwindCSS
+
+## App Design
+
+If you want to try and reproduce the design yourself and build it with your own code, below is the figma design:
+
+- [Into Africa Safaris Website Redesign (Figma - file)](<https://www.figma.com/design/oTzLzJbgkt0ajb55vz8R8r/Into-Africa-Safaris--Website-Redesign-(Copy)?node-id=0-1&p=f&t=IMDgldlJxlslCJPm-0>)
+
+## My Output
+
+![Africa Safari Landing Page](../public/africa-safari-landing.mov)
+
+Thanks 😊
